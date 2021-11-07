@@ -10,7 +10,6 @@ The wandb report link is: https://wandb.ai/adi00510/Assignment%203%20Question%20
     7. The prediction_vanilla csv file is pushed in the github. It contains the predictions made by the our best vanilla seq2seq model.
     8. While creating the grid for input, actual output and predicted output we will mark predicted output as Red if actual output is not equal to predicted output. If they are equal then we will mark predicted output as Green.
     9. Generally the matplotlib can't recognize the Telugu Letters so we have used telugu.ttf in font properties. We have uploaded this file here in Github. If you are using colab then you have to load this file to colab.
-    10. Link for the .ipynb file: https://colab.research.google.com/drive/1WRD_AeVQhXrkq5U8dpANkPFVJ8YURp_D?usp=sharing
     
  2. English to Telugu Translieration using attention
     1. Here we have implemented the attention mechanism and ran sweep over the code.
@@ -21,6 +20,5 @@ The wandb report link is: https://wandb.ai/adi00510/Assignment%203%20Question%20
     6. Here we use the best model which we got from sweep. Now by using the attention matrix which we got from running translate function we tried to show the visualization of connectivity from output to input.  
     7. We did this by using Intslider which is present in ipywidgets. We are using the slider value as index for the predicted output word. 
     8. we use the interact function to give the visualization in an interactive fashion. That is if we change the slider then it will automatically call get_color_code function which will give visualization. 
-    9. Link for the .ipynb file: https://colab.research.google.com/drive/1-DkTKWSRWCDmq1Dyvwt-ryTEMOmBoH_A?usp=sharing
 
 
